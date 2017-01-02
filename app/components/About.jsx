@@ -4,7 +4,17 @@ var React = require('react');
 var About = (props) => {
 	return (
 		<div>
-			<h3>About Component</h3>
+			<h1 className="text-center">About</h1>
+			<p>This a weather application built using React and Open Weather App as the weather API.</p>
+			<p>Links to the tools used are:</p>
+			<ul>
+				<li>
+					<a href="https://facebook.github.io/react" target="_blank">React</a> - Javascript Framework
+				</li>
+				<li>
+					<a href="http://openweathermap.org" target="_blank">Open Weather Map</a> - Get data when the user search weather by city name in degree celcius
+				</li>
+			</ul>
 		</div>
 	)
 }
