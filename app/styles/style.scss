@@ -1,0 +1,32 @@
+$space: 5.5rem;
+$primay-color: #c65353;
+
+.page-title {
+	color: $primay-color;
+	margin-top: $space;
+	margin-bottom: $space;
+}
+
+input[type=search] {
+	box-shadow: none;
+}
+
+.nav-title {
+	color: $primay-color;
+	font-size: 1.25rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+.nav-search {
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+#btn-get-weather {
+	border-radius: 0.5rem;
+}
+
+.message-text {
+	color: #c65353;
+}
