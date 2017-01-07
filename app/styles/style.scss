@@ -11,16 +11,14 @@ input[type=search] {
 	box-shadow: none;
 }
 
-.nav-title {
-	color: $primay-color;
-	font-size: 1.25rem;
+.nav-title, .nav-search {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 }
 
-.nav-search {
-	margin-top: 0.25rem;
-	margin-bottom: 0.25rem;
+.nav-title {
+	color: $primay-color;
+	font-size: 1.25rem;
 }
 
 #btn-get-weather {
